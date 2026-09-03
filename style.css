@@ -14,8 +14,6 @@ body {
 }
 
 
-/* NAVBAR */
-
 nav {
     display: flex;
     justify-content: space-between;
@@ -141,4 +139,285 @@ section h2 {
         flex-direction: column;
     }
 
+}
+
+
+#contact {
+    min-height: 90vh;
+    padding: 80px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-card {
+    width: 100%;
+    max-width: 600px;
+
+    padding: 40px;
+
+    background: white;
+
+    border-radius: 90px;
+
+    box-shadow: 0 10px 30px rgb(27, 0, 122);
+}
+
+.contact-header {
+    display: flex;
+
+    align-items: center;
+
+    gap: 30px;
+}
+
+.profile-img {
+    width: 180px;
+    height: 220px;
+
+    object-fit: cover;
+
+    border-radius: 49px;
+
+    flex-shrink: 0;
+}
+
+.contact-list {
+    margin-top: 30px;
+}
+
+.contact-item {
+    display: flex;
+
+    align-items: center;
+
+    gap: 15px;
+
+    padding: 15px;
+
+    margin-top: 10px;
+
+    border-radius: 10px;
+
+    transition: 0.3s;
+}
+
+.contact-item:hover {
+    transform: translateX(10px);
+
+    background: #f5f5f5;
+}
+
+.btn-link {
+    display: inline-block;
+
+    padding: 4px 15px;
+
+    color: white;
+
+    text-decoration: none;
+
+    border-radius: 60px;
+
+    transition: 0.3s;
+}
+
+.btn-instagram {
+    background: linear-gradient(135deg, #0c0c0c, #a5009d);
+}
+
+.taktung {
+    width: 40px;
+    height: 40px;
+
+    object-fit: cover;
+
+    border-radius: 49px;
+
+    flex-shrink: 0;
+}
+
+.btn-github {   
+    background: linear-gradient(10deg, #717171, #080808);
+}
+
+.taktong {
+    width: 40px;
+    height: 40px;
+
+    object-fit: cover;
+
+    border-radius: 49px;
+
+    flex-shrink: 0;
+}
+
+.btn-linkedin {
+    background: linear-gradient(20deg, #0d0d0e, #00a0dc);
+}
+
+.takting {
+    width: 40px;
+    height: 40px;
+
+    object-fit: cover;
+
+    border-radius: 49px;
+
+    flex-shrink: 0;
+}
+
+.btn-link:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 20px rgba(37, 117, 252, 0.3);
+}
+
+.hero {
+    min-height: 80vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    gap: 50px;
+
+    padding: 60px 10%;
+}
+
+.hero-text h1 {
+    font-size: 52px;
+    line-height: 1.2;
+    margin-bottom: 20px;
+}
+
+.hero-text h1 span {
+    background: linear-gradient(
+        90deg,
+        #2563eb,
+        #7c3aed
+    );
+
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.hero-image img {
+    width: 550px;
+    height: 420px;
+
+    object-fit: cover;
+
+    border-radius: 50px;
+}
+
+.hero-button {
+    display: inline-block;
+
+    margin-top: 20px;
+    padding: 14px 25px;
+
+    color: white;
+    text-decoration: none;
+
+    border-radius: 10px;
+
+    background: linear-gradient(
+        90deg,
+        #2563eb,
+        #7c3aed
+    );
+
+    transition: 0.3s;
+}
+
+.hero-button:hover {
+    transform: translateY(-3px);
+
+    box-shadow: 0 10px 25px rgba(37, 99, 235, 0.3);
+}
+
+@media (max-width: 768px) {
+
+    .hero {
+        flex-direction: column;
+
+        text-align: center;
+
+        padding: 50px 25px;
+    }
+
+    .hero-text h1 {
+        font-size: 38px;
+    }
+
+    .hero-image img {
+        width: 250px;
+        height: 300px;
+    }
+
+}
+
+@media (max-width: 768px) {
+
+    .hero {
+        flex-direction: column;
+
+        text-align: center;
+
+        padding: 50px 25px;
+    }
+
+    .hero-text h1 {
+        font-size: 38px;
+    }
+
+    .hero-image img {
+        width: 450px;
+        height: 300px;
+    }
+
+}
+
+body {
+    margin: 0;
+    min-height: 100vh;
+
+    background:
+        radial-gradient(circle at top left, #1e3a8a, transparent 35%),
+        radial-gradient(circle at bottom right, #581c87, transparent 35%),
+        #0f172a;
+}
+
+.hero {
+    color: rgb(163, 161, 161);
+}
+
+.contact-card {
+    background: rgba(255, 255, 255, 0.08);
+
+    border: 1px solid rgba(255, 255, 255, 0.15);
+
+    backdrop-filter: blur(10px);
+
+    border-radius: 20px;
+}
+
+.card {
+    background: rgb(6, 6, 6);
+    color: #1f2937;
+}
+
+.contact-card {
+    background: rgb(32, 32, 32);
+    color: #4c58a5;
+}
+
+#contact {
+    min-height: 100vh;
+    padding: 80px 20px;
+
+    background:
+        radial-gradient(circle at top right, #1e3a8a, transparent 35%),
+        radial-gradient(circle at bottom left, #4a077d, transparent 35%),
+        #0f172a;
 }

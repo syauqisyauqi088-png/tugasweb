@@ -16,61 +16,79 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+ <nav class="navbar navbar-expand-lg bg-body-tertiary">
   <div class="container-fluid">
     <a class="navbar-brand" href="#">Navigation</a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
-    <div class="collapse navbar-collapse" id="navbarNav">
-      <ul class="navbar-nav">
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="index.html">Home</a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link" href="portofolio.html">Portofolio</a>
+
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            All Contacts
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="contact.html">Adimas</a></li>
+            <li><a class="dropdown-item" href="contacta.html">Ananda</a></li>
+            <li><a class="dropdown-item" href="contactf.html">Fadya</a></li>
+            <li><a class="dropdown-item" href="contactg.html">Guntur</a></li>
+            <li><a class="dropdown-item" href="contactj.html">Jarvis</a></li>
+            <li><a class="dropdown-item" href="contactm.html">Maysyita</a></li>
+            <li><a class="dropdown-item" href="contacts.html">Syena</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="#">Something else here</a></li>
+          </ul>
         </li>
-        <li class="nav-item">
-          <a class="nav-link" href="contact.html">Contact</a>
-        </li>
+
         <li class="nav-item">
           <a class="nav-link disabled" aria-disabled="true">Disabled</a>
         </li>
       </ul>
+      <form class="d-flex" role="search">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form>
     </div>
   </div>
-</nav>
+ </nav>
 
-    <section id="home" class="hero">
+  <section class="hero">
 
-        <div class="hero-text">
-            <h1>Haii, Saya Adimas Muhammad Syauqi</h1>
+    <div class="hero-text">
+        <p class="greeting">👋 Halo, Selamat Datang</p>
 
-            <p>
-                Saya adalah mahasiswa yang tertarik
-                dengan teknologi, pemrograman, dan elektronika.
-            </p>
-        </div>
+        <h1>
+            Haii, Saya
+            <span>Adimas Muhammad Syauqi</span>
+        </h1>
 
-        <div class="hero-image">
-            <img src="assets/slebew.jpeg" alt="Foto Saya">
-        </div>
+        <p class="description">
+            Saya adalah mahasiswa yang tertarik dengan teknologi,
+            pemrograman, dan elektronika.
+        </p>
+    </div>
 
-    </section>
 
+    <div class="hero-image">
+        <img src="assets/anjas.jpeg" alt="Foto Adimas">
+    </div>
+
+  </section>
 
     <section id="contact">
 
-        <h2>Contact</h2>
-
-        <p>Instagram: @username</p>
-        <p>LinkedIn: linkedin.com/in/username</p>
-        <p>GitHub: github.com/username</p>
-
+        <h2>All Rights Reserved</h2>
+        <h1>.</h1>
+        <p>created by the group</p>
     </section>
 
 
     <script src="script.js"></script>
 
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
