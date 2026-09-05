@@ -9,41 +9,60 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
 
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
 </head>
 
 <body>
 
     <!-- NAVBAR -->
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
-        <div class="container">
+    <nav class="navbar custom-navbar navbar-expand-lg sticky-top">
+        <div class="container-fluid px-4 px-lg-5">
+            <a class="navbar-brand" href="index.html" aria-label="Beranda">
+                <span class="brand-mark">4</span>
+                <span class="brand-text">GOLANG</span>
+            </a>
 
-            <a class="navbar-brand" href="index.html">Portfolio</a>
-
-            <button class="navbar-toggler" type="button"
+            <button class="navbar-toggler custom-toggler" type="button"
                 data-bs-toggle="collapse"
-                data-bs-target="#navbarNav">
+                data-bs-target="#navbarNav"
+                aria-controls="navbarNav"
+                aria-expanded="false"
+                aria-label="Toggle navigation">
 
                 <span class="navbar-toggler-icon"></span>
             </button>
 
             <div class="collapse navbar-collapse" id="navbarNav">
-
-                <ul class="navbar-nav ms-auto">
-
+                <ul class="navbar-nav mx-auto align-items-lg-center">
                     <li class="nav-item">
                         <a class="nav-link" href="index.html">Home</a>
                     </li>
 
                     <li class="nav-item">
-                        <a class="nav-link active" href="portfolio.html">Portfolio</a>
+                        <a class="nav-link" href="about.html">About</a>
                     </li>
 
                     <li class="nav-item">
-                        <a class="nav-link" href="contact.html">Contact</a>
+                        <a class="nav-link active" href="portofolio.html">Portfolio</a>
                     </li>
 
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Contacts
+                        </a>
+                        <ul class="dropdown-menu custom-dropdown">
+                            <li><a class="dropdown-item" href="contact.html">Adimas</a></li>
+                            <li><a class="dropdown-item" href="contacta.html">Ananda</a></li>
+                            <li><a class="dropdown-item" href="contactf.html">Fadya</a></li>
+                            <li><a class="dropdown-item" href="contactg.html">Guntur</a></li>
+                            <li><a class="dropdown-item" href="contactj.html">Jarvis</a></li>
+                            <li><a class="dropdown-item" href="contactm.html">Maysyita</a></li>
+                            <li><a class="dropdown-item" href="contacts.html">Syena</a></li>
+                        </ul>
+                    </li>
                 </ul>
-
             </div>
         </div>
     </nav>
