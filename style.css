@@ -503,6 +503,123 @@ section h2 {
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
 }
 
+/* PORTFOLIO PAGE */
+
+.portfolio-page {
+    max-width: 1240px;
+}
+
+.portfolio-intro {
+    padding: 24px 0 48px;
+}
+
+.portfolio-kicker {
+    display: inline-block;
+    margin-bottom: 10px;
+    color: #94a3b8;
+    font-size: 0.75rem;
+    font-weight: 700;
+    letter-spacing: 0.18em;
+}
+
+.portfolio-intro h1 {
+    margin-bottom: 12px;
+    color: #fff;
+}
+
+.portfolio-intro p {
+    max-width: 580px;
+    margin: 0 auto;
+    color: #cbd5e1;
+}
+
+.portfolio-member {
+    padding: 30px 28px 36px;
+    border: 1px solid rgba(255, 255, 255, 0.12);
+    border-radius: 20px;
+    background: rgba(15, 23, 42, 0.42);
+}
+
+.member-heading {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+    margin-bottom: 8px;
+}
+
+.member-photo {
+    width: 58px;
+    height: 58px;
+    border: 2px solid rgba(255, 255, 255, 0.55);
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.member-heading h2 {
+    margin: 0;
+    text-align: left;
+    font-size: clamp(1.5rem, 3vw, 2.1rem);
+    color: #fff;
+}
+
+.member-role {
+    margin: 3px 0 0;
+    color: #cbd5e1;
+    font-size: 0.9rem;
+}
+
+.portfolio-member > p.text-center {
+    margin-bottom: 4px;
+    color: #cbd5e1;
+}
+
+.portfolio-member > p.text-center strong {
+    color: #fff;
+}
+
+.portfolio-member .card {
+    overflow: hidden;
+    padding: 0;
+    color: #f8fafc;
+    border-color: rgba(255, 255, 255, 0.14);
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.portfolio-member .card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.28);
+}
+
+.portfolio-member .card-img-top {
+    height: 190px;
+    object-fit: cover;
+}
+
+.portfolio-member .card-body {
+    padding: 22px;
+}
+
+.portfolio-member .card-title {
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.portfolio-member .card-text {
+    min-height: 66px;
+    color: #cbd5e1;
+}
+
+.portfolio-member .card-body p strong,
+.portfolio-member .card-body li {
+    color: #f8fafc;
+}
+
+.portfolio-member ul {
+    margin-bottom: 0;
+    padding-left: 20px;
+}
+
 
 /* CONTACT */
 
