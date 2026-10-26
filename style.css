@@ -188,7 +188,7 @@ body {
 }
 
 .greeting {
-    color: #4b5563;
+    color: #ffffff;
     font-weight: 600;
     margin-bottom: 15px;
 }
@@ -203,7 +203,7 @@ body {
 .description {
     font-size: 1.05rem !important;
     line-height: 1.8;
-    color: #4b5563;
+    color: #c3bdbd;
 }
 
 .hero-actions {
@@ -944,6 +944,7 @@ section h2 {
     font-size: 52px;
     line-height: 1.2;
     margin-bottom: 20px;
+    color: #fff;
 }
 
 .hero-text h1 span {
